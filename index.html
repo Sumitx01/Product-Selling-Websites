@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PreciseArt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mediaquieies.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div>
+      <ul class="item0">
+        <ul class="left">
+          <li><a href="Blogs.html">Blogs</a></li>
+          <li><a href="FeaturedProducts.html">Featured Products</a></li>
+          <li><a href="Wishlist.html">Wishlist</a></li>
+        </ul>
+        <ul class="right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <!-- <li><a href="#">USD <i class="fa-solid fa-caret-down"></i></a></li>
+          <li><a href="#">English <i class="fa-solid fa-caret-down"></i></a></li> -->
+        </ul>
+      </ul>
+    </div>
+  </header>
+  <nav id="navbar">
+    <a href="index.html"><img src="Images/logo.png" class="logo" alt="Image not found"></a>
+    <div>
+      <ul class="navabar-container">
+        <ul class="item">
+          <form action="" class="search active">
+            <i class="fa-brands fa-searchengin"></i>
+            <input type="text" class="searchbar" placeholder="Search Products">
+            <button type="reset" class="clearbutton"><i class="fa-solid fa-xmark"></i></button>
+            <button type="submit" class="searchbutton">Search</button>
+          </form>
+        </ul>
+        <ul class="item1">
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Deals.html">Deals</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+          <li class="cart"><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+        <section class="hamburger-menu">
+          <button class="hamburger" onclick="show()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </button>
+          <div>
+            <ul class="hamburger-links">
+              <li><a href="Shop.html">Shop</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Deals.html">Deals</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="ContactUs.html">Contact Us</a></li>
+              <li class="cart"><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </div>
+        </section>
+          </div>
+        </ul>
+      </ul>
+    </div>
+  </nav>
+  <section class="introsection">
+    <div id="into-page">
+      <video autoplay loop>
+        <source src="Images/home page img/pexels-kindel-media-7578547.mp4" type="video/mp4">
+      </video>
+      <div class="intro-container">
+        <h1>Style your home your way</h1>
+        <h2>You imagine, we build</h2>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="slider-product">
+        <div class="slider-product-title1">
+          <div class="slider-container1">
+            <div class="slides1">
+              <input type="radio" name="radio-btn1" id="radio1-1">
+              <input type="radio" name="radio-btn1" id="radio2-1">
+              <input type="radio" name="radio-btn1" id="radio3-1">
+              <input type="radio" name="radio-btn1" id="radio4-1">
+              <div class="slide-image1 first1"><img src="Images/home page img/slider img/Centre Table/MSCT (1).jpg"
+                  alt="Slide1">
+              </div>
+              <div class="slide-image1"><img src="Images/home page img/slider img/Centre Table/MSCT (142).jfif"
+                  alt="Slide2"></div>
+              <div class="slide-image1"><img src="Images/home page img/slider img/Centre Table/MSCT (156).jpg"
+                  alt="Slide3"></div>
+              <div class="slide-image1"><img src="Images/home page img/slider img/Centre Table/MSCT (91).jpg"
+                  alt="Slide4"></div>
+              <div class="navigation-auto1">
+                <div class="autobtn1-1"></div>
+                <div class="autobtn2-1"></div>
+                <div class="autobtn3-1"></div>
+                <div class="autobtn4-1"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#">CENTRE TABLES</a>
+          <div class="manual-navigation1">
+            <label for="radio1-1" class="manual-btn1"></label>
+            <label for="radio2-1" class="manual-btn1"></label>
+            <label for="radio3-1" class="manual-btn1"></label>
+            <label for="radio4-1" class="manual-btn1"></label>
+          </div>
+        </div>
+        <div class="slider-product-title2">
+          <div class="slider-container2">
+            <div class="slides2">
+              <input type="radio" name="radio-btn2" id="radio1-2">
+              <input type="radio" name="radio-btn2" id="radio2-2">
+              <input type="radio" name="radio-btn2" id="radio3-2">
+              <input type="radio" name="radio-btn2" id="radio4-2">
+              <div class="slide-image2 first2"><img src="Images/home page img/slider img/Chair/MSCH (1).jfif"
+                  alt="Slide1"></div>
+              <div class="slide-image2"><img src="Images/home page img/slider img/Chair/MSCH (10).jpg" alt="Slide2">
+              </div>
+              <div class="slide-image2"><img src="Images/home page img/slider img/Chair/MSCH (108).jpg" alt="Slide3">
+              </div>
+              <div class="slide-image2"><img src="Images/home page img/slider img/Chair/MSCH (113).jpg" alt="Slide4">
+              </div>
+              <div class="navigation-auto2">
+                <div class="autobtn1-2"></div>
+                <div class="autobtn2-2"></div>
+                <div class="autobtn3-2"></div>
+                <div class="autobtn4-2"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#">CHAIR</a>
+          <div class="manual-navigation2">
+            <label for="radio1-2" class="manual-btn2"></label>
+            <label for="radio2-2" class="manual-btn2"></label>
+            <label for="radio3-2" class="manual-btn2"></label>
+            <label for="radio4-2" class="manual-btn2"></label>
+          </div>
+        </div>
+        <div class="slider-product-title3">
+          <div class="slider-container3">
+            <div class="slides3">
+              <input type="radio" name="radio-btn3" id="radio1-3">
+              <input type="radio" name="radio-btn3" id="radio2-3">
+              <input type="radio" name="radio-btn3" id="radio3-3">
+              <input type="radio" name="radio-btn3" id="radio4-3">
+              <div class="slide-image3 first3"><img src="Images/home page img/slider img/Mirror Frame/MSMF (12).jpg"
+                  alt="Slide1"></div>
+              <div class="slide-image3"><img src="Images/home page img/slider img/Mirror Frame/MSMF (3).jpg"
+                  alt="Slide2">
+              </div>
+              <div class="slide-image3"><img src="Images/home page img/slider img/Mirror Frame/MSMF (6).jpg"
+                  alt="Slide3">
+              </div>
+              <div class="slide-image3"><img src="Images/home page img/slider img/Mirror Frame/MSMF (9).jpg"
+                  alt="Slide4">
+              </div>
+              <div class="navigation-auto3">
+                <div class="autobtn1-3"></div>
+                <div class="autobtn2-3"></div>
+                <div class="autobtn3-3"></div>
+                <div class="autobtn4-3"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#">MIRROR</a>
+          <div class="manual-navigation3">
+            <label for="radio1-3" class="manual-btn3"></label>
+            <label for="radio2-3" class="manual-btn3"></label>
+            <label for="radio3-3" class="manual-btn3"></label>
+            <label for="radio4-3" class="manual-btn3"></label>
+          </div>
+        </div>
+        <div class="slider-product-title4">
+          <div class="slider-container4">
+            <div class="slides4">
+              <input type="radio" name="radio-btn4" id="radio1-4">
+              <input type="radio" name="radio-btn4" id="radio2-4">
+              <input type="radio" name="radio-btn4" id="radio3-4">
+              <input type="radio" name="radio-btn4" id="radio4-4">
+              <div class="slide-image4 first4"><img src="Images/home page img/slider img/Office Table/MSOT (17).jpg"
+                  alt="Slide1"></div>
+              <div class="slide-image4"><img src="Images/home page img/slider img/Office Table/MSOT (2).jpg"
+                  alt="Slide2">
+              </div>
+              <div class="slide-image4"><img src="Images/home page img/slider img/Office Table/MSOT (25).jpg"
+                  alt="Slide3"></div>
+              <div class="slide-image4"><img src="Images/home page img/slider img/Office Table/MSOT (32).jpg"
+                  alt="Slide4"></div>
+              <div class="navigation-auto4">
+                <div class="autobtn1-4"></div>
+                <div class="autobtn2-4"></div>
+                <div class="autobtn3-4"></div>
+                <div class="autobtn4-4"></div>
+              </div>
+            </div>
+          </div>
+          <a href="">OFFICE TABLES</a>
+          <div class="manual-navigation4">
+            <label for="radio1-4" class="manual-btn4"></label>
+            <label for="radio2-4" class="manual-btn4"></label>
+            <label for="radio3-4" class="manual-btn4"></label>
+            <label for="radio4-4" class="manual-btn4"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="whatweoffer">
+    <div class="whatweoffer-container">
+      <div class="whatweoffer-product-list">
+        <div>
+          <a href="">
+            <h2>All type of Beds</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>Centre Tables & Dining Tables</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>Chair, Dining Chair & Restaurant Chair</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>Office Tables, Console Tables & Study Tables</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>Sofa, Couch & Pouffes</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>Serving Trolley & Side Tables</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="">
+            <h2>ALL type of Showcase & T.V. Showcase</h2><i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+      <div class="whatweoffer-content">
+        <div>
+          <h3>What we offer</h3>
+          <h1>Our Comprehensive Product Portfolio</h1>
+          <p>Your home is a reflection of you. Nail your aesthetic with products our stylists love and recommend</p>
+          <a href="#">Products</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="features-container">
+      <div class="features-icons">
+        <img src="Images/home page img/free-shipping-delivery-service-logo-badge-vector.jpg" alt="">
+        <a href="#">Free Shipping</a>
+        <p>Free & fat delivery</p>
+      </div>
+      <div class="features-icons">
+        <img src="Images/home page img/online-shopping-trolley-click-and-collect-order-logo-design-template-vector.jpg"
+          alt="">
+        <a href="#">Online Orders</a>
+        <p>Save time</p>
+      </div>
+      <div class="features-icons">
+        <img src="Images/home page img/premium-quality-product-golden-label-design-vector-20013936.jpg" alt="">
+        <a href="#">Premium Products</a>
+        <p>A Commitment To Quality</p>
+      </div>
+      <div class="features-icons">
+        <img src="Images/home page img/EXPERT-1-1-300x142.jpg" alt="">
+        <a href="#">Expert Installation</a>
+        <p>On Site By Our Technicians</p>
+      </div>
+      <div class="features-icons">
+        <img
+          src="Images/home page img/customer-service-representative-help-desk-customer-support-png-favpng-TEh0Mw3cdjWKuT93LG6AG5g76.jpg"
+          alt="">
+        <a href="#">Customer Support</a>
+        <p>From Planning To Execution</p>
+      </div>
+    </div>
+  </section>
+  <section class="ourpurpose">
+    <div class="ourpurpose-container">
+      <div class="ourpurpose-content">
+        <div>
+          <h2>Our Purpose</h2>
+          <h1>For Every Place that Matters</h1>
+          <p>Our purpose to make your House beutiful.
+            We are where our communities come together-from locations across town to locations across the world.
+            At your House, Shopes, Industries, School, Universities, Restaurant, Hotels, Showrooms, Hospitals &
+            Workplaces.
+            We provide best quality products, services & making custom design according to your demand.
+            Allowing people to shape their lives the way they want.
+          </p>
+        </div>
+      </div>
+      <div class="ourpurpose-video">
+        <div>
+          <video autoplay loop>
+            <source src="Images/home page img/pexels-kindel-media-7578552.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="solutions-for-places-that-matters">
+    <div class="sfptm-container">
+      <div class="sfptm-animated-images0">
+        <h2>Solutions for places that matter</h2>
+      </div>
+      <div class="sfptm-animated-images">
+        <img src="Images/spacejoy-PyeXkOVmG1Y-unsplash.jpg" alt="">
+        <a href="#">Living Room</a>
+      </div>
+      <div class="sfptm-animated-images">
+        <img src="Images/home page img/jean-philippe-delberghe-F7b0y4JbEpc-unsplash.jpg" alt="">
+        <a href="#">Restaurant</a>
+      </div>
+      <div class="sfptm-animated-images">
+        <img src="Images/home page img/s-o-c-i-a-l-c-u-t-1RT4txDDAbM-unsplash.jpg" alt="">
+        <a href="#">Office</a>
+      </div>
+      <div class="sfptm-animated-images">
+        <img src="Images/home page img/spacejoy-RUvW1KGD9a4-unsplash.jpg" alt="">
+        <a href="#">Bed Room</a>
+      </div>
+      <div class="sfptm-animated-images">
+        <img src="Images/home page img/slava-keyzman-ZG4Y6lLPARw-unsplash.jpg" alt="">
+        <a href="#">Study Room</a>
+      </div>
+    </div>
+  </section>
+  <section id="our-innovative-products">
+    <div class="oip-container">
+      <div class="oip-content">
+        <div>
+          <h2>Our Innovative Products</h2>
+          <h1>Destined for the World's Most Beautiful Interiors</h1>
+          <a href="#">Explore</a>
+        </div>
+      </div>
+      <div class="oip-img">
+        <div class="oip-main-img">
+          <img src="Images/Innovative products/MSART (11).jpg" width="40%" height="80%" id="mainImg" alt="">
+          <div class="oip-small-img">
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (11).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (12).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (15).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (17).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (2).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (3).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (5).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (6).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (7).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (8).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (18).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (28).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (29).jpg" class="smallImg" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="Images/Innovative products/MSART (30).jpg" class="smallImg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Customer-Support">
+    <div class="cs-container">
+      <div class="cs-container-left">
+        <p>“To give real service you must add something which cannot be bought or measured with money, and that is
+          sincerity and integrity.”</p>
+      </div>
+      <div class="cs-container-right">
+        <h2>Help is on the way</h2>
+        <h1>Customer Support</h1>
+        <a href="#">Service Enquiry</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="Images/logo.png" alt="Company Logo">
+      </div>
+      <div class="footer-right">
+        <a href="index.html" class="ft-home">Home</a>
+        <div class="ft-link0">
+          <div class="ft-links">
+            <a href="#">My Account</a>
+            <a href="#">My Cart</a>
+            <a href="#">Checkout</a>
+            <a href="#">Order Status</a>
+            <a href="#">Return & Refund Policy</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="ft-links1">
+            <a href="#">Term Conditions</a>
+            <a href="#">Shipping,Delivery & Instalation</a>
+            <a href="#">Care & Maintenance</a>
+            <a href="#">Frequently Asked Questions</a>
+            <a href="#">Our Blogs</a>
+            <a href="#">Product Catalog</a>
+          </div>
+          <div class="ft-links2">
+            <div class="footer-text">
+              <a href="#">About US</a>
+              <p> Unde beatae deleniti esse porro quae libero, soluta sed Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Animi qui architecto dolorum quia aut, voluptates expedita deserunt, quas, vero ipsa
+                ut quis laboriosam? Reprehenderit inventore nihil officia, debitis ducimus consectetur.quibusdam saepe
+                illo.</p>
+            </div>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="payment-icons">
+              <img src="Images/home page img/payment-methods-epicerie-ludo.png" alt="Payment Options">
+            </div>
+          </div>
+          <div class="ft-links3">
+            <a href="" id="ft-links-con-us">Contact Us</a>
+            <div class="ft-links3-links1">
+              <img src="Images/home page img/callicon.png" height="35px" alt="">
+              <p>9827213028</p>
+            </div>
+            <div class="ft-links3-links2">
+              <img src="Images/home page img/mailicon.png" height="35px" alt="">
+              <a href="">prabhawati38bagroda@gmail.com</a>
+            </div>
+            <div class="ft-links3-links3">
+              <img src="Images/home page img/blogicon.png" height="48px" alt="">
+              <a href="">Blog</a>
+            </div>
+            <div class="ft-links3-links4">
+              <img src="Images/home page img/homicon.png" height="75px" alt="">
+              <a href="">Showroom & Manufacturing Company</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      &copy; 2023 PreciseArt. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
